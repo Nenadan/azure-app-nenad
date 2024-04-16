@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_nenad</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/1617255f-dca1-4e22-bbf8-d3427fdb99b5/resourceGroups/learn-627ba43d-3bcc-43cd-9f82-96b9236b27ee/providers/microsoft.insights/components/azure-app-nenad</ApplicationInsightsResourceId>
+    <UserSecretsId>b93bf725-d92b-4da2-bc39-046d5d6bd8b1</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
